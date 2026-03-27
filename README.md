@@ -1,39 +1,58 @@
-# Projeto PetShop - Fase 2
+# Projeto PetShop - Fase 1
 
 **Disciplina:** Fundamentos de Sistemas Web - PUCRS
 
-## Visao geral
-Este projeto apresenta a evolucao do sistema web do PetShop Salazar para a fase 2 da disciplina. A pagina foi reorganizada para oferecer uma navegacao mais atrativa, responsiva e dinamica, incluindo Bootstrap, JavaScript, formulario completo de cadastro e agendamento de servicos.
 
-## Funcionalidades implementadas
-- **Layout com CSS e Bootstrap:** pagina responsiva com navbar, cards e organizacao em secoes.
-- **Carrossel de imagens:** destaque visual dos servicos principais do petshop.
-- **JavaScript dinamico:** relogio em tempo real, status de funcionamento da loja, resumo automatico do agendamento e mensagem de envio do formulario.
-- **Formulario completo:** cadastro do cliente e do pet com campos obrigatorios, radio buttons, checkbox, e-mail, number, date e time.
-- **Agendamento de servicos:** escolha entre banho e tosa, com definicao de tele-busca ou entrega no local, alem de data e horario.
-- **Acessibilidade:** textos alternativos em imagens, link para pular direto ao conteudo principal, foco visivel e modo de alto contraste.
 
-## Ajustes realizados da fase 1 para a fase 2
-- Reestruturacao do `index.html` com secoes mais semanticas e melhor navegacao.
-- Separacao dos arquivos em `index.html`, `styles.css` e `script.js`, conforme orientacao da disciplina.
-- Inclusao de componentes visuais com Bootstrap e personalizacao com CSS proprio.
-- Inclusao de funcionalidades em JavaScript para tornar a pagina mais interativa.
-- Adicao do formulario de cadastro e agendamento completo.
-- Reforco de acessibilidade visual para atender aos requisitos da fase.
+## Funcionalidades
 
-## Estrutura dos arquivos
-- `index.html`: estrutura principal da pagina.
-- `css/styles.css`: estilos customizados e ajustes responsivos.
-- `js/main.js`: arquivo principal que inicializa os modulos JavaScript.
-- `js/relogio.js`: atualiza horario e status de funcionamento.
-- `js/acessibilidade.js`: controla o modo de alto contraste.
-- `js/formulario.js`: gerencia resumo, validacao e envio do formulario.
-- `README.md`: arquivo de ajuda com descricao do projeto.
+Este sistema web apresenta a interface inicial de um PetShop, contendo:
 
-## Publicacao
-O projeto pode ser publicado com GitHub Pages a partir deste repositorio. Para a entrega final em PDF, inclua:
-- Link do repositorio no GitHub
-- Link do site publicado no GitHub Pages
+- **Catálogo de Produtos:** Dividido em Acessórios, Rações e Higiene.
 
-## Observacao
-As imagens utilizadas no carrossel e nos produtos sao externas e servem para demonstracao visual do sistema web.
+- **Detalhamento de Serviços:** Listagem de Banho e Tosa com informações sobre Tele-busca.
+
+- **Navegação Semântica:** Uso de âncoras para navegação rápida entre as seções.
+
+
+
+## Tecnologias Utilizadas
+
+- HTML5 (Estrutura e Marcação).
+
+- Hospedagem: GitHub Pages.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Projeto PetShop Salazar - Fase 2 (Final)
+Disciplina: Fundamentos de Sistemas Web - PUCRS
+
+Funcionalidades
+Este sistema web representa a evolução final da plataforma, integrando interatividade e design responsivo:
+
+Catálogo Completo de Produtos: Apresentação de 6 itens divididos em Acessórios, Rações e Higiene, com imagens e valores.
+
+Agendamento Inteligente: Formulário com validação de data (bloqueio de datas passadas) e horários comerciais.
+
+Resumo em Tempo Real: Painel lateral que atualiza instantaneamente o serviço e o método de busca selecionados.
+
+Status de Atendimento Automático: Sistema que identifica se a loja está aberta ou fechada com base no horário real.
+
+Acessibilidade Proativa: Inclusão de modo de alto contraste para usuários com baixa visão e links de salto para navegação por teclado.
+
+Interface Responsiva: Layout que se adapta automaticamente a celulares, tablets e desktops.
+
+Tecnologias Utilizadas
+HTML5: Marcação semântica para melhor SEO e acessibilidade.
+
+CSS3 Personalizado: Uso de variáveis nativas e estilização avançada de componentes.
+
+Bootstrap 5.3: Framework utilizado para agilizar a responsividade e componentes visuais (Carrossel, Grid e Cards).
+
+JavaScript (ES6 Modules): Organização do código em módulos independentes (relogio.js, acessibilidade.js, formulario.js).
+
+
+Git & GitHub: Gestão de configuração e controle de versão.
+
+
+Hospedagem: Publicação contínua via GitHub Pages.
